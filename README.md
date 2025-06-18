@@ -81,17 +81,15 @@ Below you will find the complete code for each page, alongside a detailed descri
 1. header.php
 Header.php Code Explanation
 
-This header.php file defines the consistent header section displayed at the top of every page on the Healthcare Info website.
+## Header.php Code Explanation
 
-It starts with the HTML5 doctype and sets the language attribute to English for accessibility and SEO.
+This `header.php` file defines the consistent header section displayed at the top of every page on the Healthcare Info website.
 
-The <head> section includes metadata and links the external CSS stylesheet (css/style.css) for styling across the site.
-
-Inside the <body>, the header contains the site title wrapped in an <h1> tag for clear branding and SEO benefits.
-
-A navigation bar (<nav>) follows, containing an unordered list (<ul>) of links (<a>) to the main website pages: Home, About, Contact, Health Tips, and Resources.
-
-This modular header can be included in all pages via PHP includes to maintain consistency and simplify updates.
+- It starts with the HTML5 doctype and sets the language attribute to English for accessibility and SEO.
+- The `<head>` section includes metadata and links the external CSS stylesheet (`css/style.css`) for styling across the site.
+- Inside the `<body>`, the header contains the site title wrapped in an `<h1>` tag for clear branding and SEO benefits.
+- A navigation bar (`<nav>`) follows, containing an unordered list (`<ul>`) of links (`<a>`) to the main website pages: Home, About, Contact, Health Tips, and Resources.
+- This modular header can be included in all pages via PHP includes to maintain consistency and simplify updates.
 
 2. footer.php
 Footer.php Code Explanation
