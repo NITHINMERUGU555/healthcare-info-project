@@ -32,6 +32,53 @@ This project demonstrates my commitment to thoughtful web design that balances a
 - Created and refined visual assets and layout prototypes using design tools to ensure a clean and user-friendly interface.
 
 ---
+## Project Screenshots
+
+### Home Page
+![Home Page](home.png)  
+- The homepage welcomes users with a clear and inviting introduction to the Healthcare Info project, emphasizing practical health advice.  
+- It features a dynamic daily health tip carousel that rotates through useful wellness tips every few seconds, enhancing user engagement.  
+- The top 5 daily health tips are highlighted with emojis and simple language to encourage healthy habits.  
+- The page ends with a call-to-action inviting users to contact for personalized wellness advice, making navigation intuitive and purposeful.
+
+---
+
+### About Page
+![About Page](about.png)  
+- This page explains the purpose of the Healthcare Info project, focusing on health education and wellness awareness.  
+- It highlights the project’s key design principles like responsive layout, clean UI, and modular PHP structure for maintainability.  
+- Skills demonstrated through the project include semantic HTML, CSS responsive design, and user-centric content organization.  
+- The page credits the developer, reinforcing professional authorship and accountability.
+
+---
+
+### Contact Page
+![Contact Page](contact.png)  
+- The contact page provides a simple, accessible form allowing users to send feedback or inquiries directly through the site.  
+- It includes clear labeling of fields (Name, Email, Message) with placeholder text for improved usability and accessibility.  
+- Form submission is handled securely via PHP on the backend, ensuring data is processed safely.  
+- The page maintains consistent site branding with header and footer includes, preserving a unified user experience.
+
+---
+
+### Health Tips Page
+![Health Tips Page](tips.png)  
+- This page presents a curated list of practical health and wellness tips designed to foster daily positive habits.  
+- Each tip is paired with a relevant emoji to make the advice engaging and visually appealing.  
+- The content is structured in a clear, easy-to-read format with appropriate spacing and font sizing.  
+- The page layout is responsive and styled with CSS to maintain readability across devices.
+
+---
+
+### Resources Page
+![Resources Page](resources.png)  
+- The resources page organizes important external health information sources into categories: General Health, Mental Health, and Nutrition & Wellness.  
+- Links open in new tabs to direct users to trusted websites like CDC, WHO, and official nutrition sites, boosting credibility.  
+- The clean layout with headings and bulleted lists aids quick scanning and easy navigation.  
+- This page supports the project’s goal of promoting informed health decisions through reliable, curated content.
+
+---
+
 
 ## Project Structure Overview
 
