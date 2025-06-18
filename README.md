@@ -4,6 +4,39 @@ This repository contains the full source code for the Healthcare Info website â€
 
 ---
 
+Healthcare Info is a clean, responsive, and highly accessible website designed to empower users with essential wellness tips, COVID-19 updates, and reliable health resources. The siteâ€™s goal is to deliver an intuitive, visually balanced experience that supports informed health decisions through clear, content-focused design.
+
+Developed as a personal web design portfolio piece, this project emphasizes modular PHP architecture, accessible UI/UX principles, and responsive layouts that adapt smoothly across devices and screen sizes.
+
+Key Features:
+
+Simple navigation with modular includes for maintainability
+
+Clear typography and visual hierarchy optimized for readability
+
+Engaging use of icons and subtle color palettes for calm, trustworthiness
+
+Trusted health data and resources curated for user confidence
+
+Accessibility best practices ensuring usability for diverse audiences
+
+This project demonstrates my commitment to thoughtful web design that balances aesthetics, usability, and content clarity, crafted using modern HTML, CSS, and PHP development techniques.
+
+Tools and Technologies Used
+HTML5 & CSS3: Used semantic markup and modern styling techniques to create a responsive, accessible, and visually appealing website adaptable across devices and screen sizes.
+
+PHP: Modularized the website structure using PHP includes for reusable components such as headers and footers, improving maintainability and consistency. Handled server-side form processing securely.
+
+JavaScript: Added dynamic interactivity such as rotating daily health tips, enhancing user engagement without requiring page reloads.
+
+Visual Studio Code: Primary development environment with features like code completion, debugging tools, and integrated terminal to streamline development workflow.
+
+Browser Developer Tools (e.g., Chrome DevTools): Used for real-time inspection, debugging, performance testing, and ensuring cross-browser compatibility to deliver a polished user experience.
+
+Design Tools: Created and refined visual assets and layout prototypes using graphic design software (e.g., Adobe Photoshop, Figma) to ensure a clean and user-friendly interface.
+
+---
+
 ## Project Structure Overview
 
 The project is built with modular PHP includes for header and footer, semantic HTML, CSS styling, and basic JavaScript for dynamic content. The backend stores contact form submissions in a text file without a database, ideal for simple hosting.
