@@ -206,15 +206,25 @@ This stylesheet defines the visual appearance and layout of the Healthcare Info 
 
 ---
 
-## How to Use This Repository
+---
 
-1. Clone or download this repository to your local PHP-enabled server environment.
-2. Ensure the `data` directory is writable for storing contact form submissions.
-3. Place the project files in your web server's root or a subdirectory.
-4. Access the site via `index.php` in your browser to view the homepage.
-5. Navigate to other pages via the header menu links.
-6. Use the contact form to submit messages; submissions are saved locally in a text file.
-7. Modify `css/style.css` for custom styling adjustments.
+## Project Overview
+
+Healthcare Info is a clean, accessible, and responsive web project aimed at providing users with practical wellness tips, reliable health resources, and up-to-date information to support healthier lifestyle choices. Built as a personal portfolio piece, this project emphasizes modular PHP development, semantic HTML5, and modern CSS techniques to ensure maintainability and great user experience across all devices.
+
+The site features dynamic content such as a rotating daily health tip carousel powered by JavaScript, clear navigation through reusable header and footer includes, and a secure contact form handled by PHP backend processing. Content pages like About, Tips, Resources, and Contact are designed with accessibility and usability in mind—offering friendly layouts, clear typography, and engaging visual cues like emojis to encourage user interaction.
+
+This project demonstrates skills in:
+
+- Full-stack web development including PHP backend scripting and frontend HTML/CSS/JS
+- Responsive and accessible UI design focused on readability and user engagement
+- Modular code organization using PHP includes to promote consistency and ease of maintenance
+- Integration of dynamic content to enhance the user experience without full page reloads
+
+Overall, Healthcare Info reflects a commitment to thoughtful, user-centric web design that balances clean aesthetics with functional performance, making it a strong portfolio project showcasing practical web development abilities.
+
+Feel free to explore the repository and review the well-documented code to understand how these concepts are implemented.
+
 
 ---
 
