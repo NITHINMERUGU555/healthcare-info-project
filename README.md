@@ -147,4 +147,4 @@ Designed and developed by **Nithin Merugu**.
 
 ---
 
-*Feel free to customize this README or let me know if you want me to generate a README file you can upload directly!*
+
