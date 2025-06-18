@@ -1,0 +1,13 @@
+Date: 2025-06-12 21:05:22
+Name: Nithin
+Email: nithin.merugu@slu.edu
+Message: Hey man how are you
+-------------------------
+Name: Nithin
+Email: nithin.merugu@slu.edu
+Message: hey buddy
+
+Name: hey
+Email: man@g.com
+Message: how
+

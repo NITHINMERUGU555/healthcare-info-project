@@ -1,0 +1,133 @@
+/* General layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;             /* Makes it horizontal */
+  justify-content: center;  /* Aligns center */
+  gap: 20px;                 /* Space between links */
+}
+
+nav li {
+  display: inline;           /* Ensures items sit side by side */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Main content */
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Form styles */
+form {
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005fa3;
+}
+
+.notice {
+  background-color: #fffae6;
+  border-left: 6px solid #ffcc00;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+.about-section {
+  background-color: rgba(255,255,255,0.95);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.about-section h2, .about-section h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+.about-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.about-section li {
+  margin-bottom: 8px;
+}
+.tips-section {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.wellness-tips {
+  margin-top: 20px;
+  padding-left: 20px;
+  line-height: 1.8em;
+  font-size: 1.1em;
+}
