@@ -1,218 +1,150 @@
-# healthcare-info-project
-A responsive, user-friendly website built with HTML, CSS, and PHP to provide practical health tips, wellness insights, and trusted resources. Designed to promote healthier lifestyle choices through clean UI, modular code structure, and accessibility best practices.
-Project Overview:
+# Healthcare Info Website
 
-Healthcare Info is a clean, responsive, and highly accessible website designed to empower users with essential wellness tips, COVID-19 updates, and reliable health resources. The site’s goal is to deliver an intuitive, visually balanced experience that supports informed health decisions through clear, content-focused design.
+This repository contains the full source code for the Healthcare Info website — a responsive, accessible, and user-friendly platform providing health awareness, wellness tips, and trusted resources.
 
-Developed as a personal web design portfolio piece, this project emphasizes modular PHP architecture, accessible UI/UX principles, and responsive layouts that adapt smoothly across devices and screen sizes.
+---
 
-Key Features:
+## Project Structure Overview
 
-Simple navigation with modular includes for maintainability
+The project is built with modular PHP includes for header and footer, semantic HTML, CSS styling, and basic JavaScript for dynamic content. The backend stores contact form submissions in a text file without a database, ideal for simple hosting.
 
-Clear typography and visual hierarchy optimized for readability
+---
 
-Engaging use of icons and subtle color palettes for calm, trustworthiness
+## Header.php Code Explanation
 
-Trusted health data and resources curated for user confidence
+This `header.php` file defines the consistent header section displayed at the top of every page on the Healthcare Info website.
 
-Accessibility best practices ensuring usability for diverse audiences
+- It starts with the HTML5 doctype and sets the language attribute to English for accessibility and SEO.
+- The `<head>` section includes metadata and links the external CSS stylesheet (`css/style.css`) for styling across the site.
+- Inside the `<body>`, the header contains the site title wrapped in an `<h1>` tag for clear branding and SEO benefits.
+- A navigation bar (`<nav>`) follows, containing an unordered list (`<ul>`) of links (`<a>`) to the main website pages: Home, About, Contact, Health Tips, and Resources.
+- This modular header can be included in all pages via PHP includes to maintain consistency and simplify updates.
 
-This project demonstrates my commitment to thoughtful web design that balances aesthetics, usability, and content clarity, crafted using modern HTML, CSS, and PHP development techniques.
+---
 
-Tools and Technologies Used:
+## Footer.php Code Explanation
 
-Developed the website using HTML5, ensuring semantic markup that improves accessibility and SEO, with CSS3 to create a responsive and visually appealing design adaptable to various screen sizes and devices.
+This `footer.php` file defines the consistent footer section displayed at the bottom of every page on the Healthcare Info website.
 
-Employed PHP to modularize the website’s structure by including reusable components like headers and footers, streamlining code maintenance and consistency across pages, and handling form submissions securely on the server side.
+- The `<footer>` element contains a paragraph that dynamically displays the current year using PHP’s `date("Y")` function, ensuring the copyright year is always up to date.
+- It includes a simple copyright notice with the site name, reinforcing ownership and professionalism.
+- The footer closes the `<body>` and `<html>` tags, properly ending the HTML document structure.
+- Like the header, this modular footer can be included across all pages with PHP includes, promoting code reuse and easy maintenance.
 
-Utilized JavaScript to add dynamic interactivity, such as the rotating daily health tips, enhancing user engagement without requiring page reloads.
+---
 
-Used Visual Studio Code as the primary development environment, benefiting from its code completion, debugging tools, and integrated terminal to improve development efficiency.
+## Index.php (Home Page) Code Explanation
 
-Leveraged browser developer tools (e.g., Chrome DevTools) for real-time inspection, debugging, performance testing, and ensuring cross-browser compatibility to deliver a polished user experience.
+This `index.php` file serves as the homepage and central landing page of the Healthcare Info website.
 
-Created and refined visual assets and layout prototypes using Adobe Photoshop or Figma, aiding in consistent branding and professional UI design (if applicable).
+- It begins by including the common `header.php` and a site-wide `notice.html` banner or announcement.
+- The **Hero Section** introduces visitors with a welcoming heading and concise site purpose.
+- The **Dynamic Daily Health Tip** section uses JavaScript to rotate health tips every few seconds, increasing engagement.
+- The **Top 5 Daily Health Tips** section displays actionable health advice with emojis for visual appeal.
+- The **Healthy Living Benefits** section highlights the positive outcomes of a healthy lifestyle.
+- A **Call to Action (CTA)** encourages users to contact for personalized wellness tips.
+- The page ends by including a common `footer.php` for consistent footer content.
 
-Below are screenshots of all website pages, each accompanied by a brief description.
+---
 
-About Home Page: Welcome to Healthcare Info, your trusted source for practical health tips, wellness insights, and reliable resources. This site is designed to help you stay informed and make healthier lifestyle choices every day. Discover daily health tips to boost your mood and energy, along with the top five habits for a balanced and vibrant life. Learn how healthy living supports long-term wellness, mental clarity, and emotional well-being. Our content is focused on clarity, accessibility, and practical guidance for all users. Explore the site and take control of your health journey with confidence.
+## About.php Code Explanation
 
-About:
+This `about.php` page provides an overview of the Healthcare Info project.
 
-Healthcare Info is an educational platform dedicated to providing clear, practical health awareness and wellness guidance. The site focuses on delivering reliable tips, COVID-19 insights, and curated health resources to empower individuals in making smarter and healthier lifestyle decisions.
+- Structured with semantic HTML sections wrapped by PHP includes for modularity.
+- Describes the platform’s purpose as an educational tool for health awareness and wellness.
+- Details the project purpose highlighting hands-on experience with HTML, CSS, and PHP.
+- Lists design highlights such as responsive layouts, clean UI, and modular PHP components.
+- Describes the key skills demonstrated, including semantic HTML, responsive CSS, and content organization.
+- Credits the developer, emphasizing professional ownership.
+- The modular header and footer includes maintain consistency across pages.
 
-This project was developed as part of a personal web design portfolio to showcase clean, responsive UI/UX design, modular PHP structure, and strong emphasis on accessibility and content clarity.
+---
 
-The Contact Us page provides visitors with a simple and accessible way to communicate directly with the website owner or team. It includes a user-friendly form where users can submit their name, email, and message. This facilitates feedback, questions, or support requests related to the site’s health content, helping to build trust and engagement with users.
+## Contact.php Code Explanation
 
-Health Tips: This page offers practical and easy-to-follow wellness advice aimed at improving daily health habits. It highlights simple actions like hydration, stretching, and sleep hygiene that contribute to overall well-being. The goal is to empower users with actionable tips they can integrate into their routines for a healthier lifestyle.
+This `contact.php` page offers a simple, accessible contact form for user feedback.
 
-Resources Page: This page provides carefully curated links to trusted health organizations and informational sites. It is divided into categories covering general health, mental health, and nutrition & wellness. The goal is to offer users quick access to reliable external resources to support their health education and informed decision-making
+- Includes the reusable header and footer with PHP includes.
+- Contains a section with a heading and introductory text encouraging users to send messages.
+- The contact form uses the POST method and submits to `save_contact.php`.
+- Inputs include Name and Email fields with placeholders and validation (`required`).
+- A textarea collects user messages.
+- The submit button features styling and emoji for user-friendly interaction.
+- Form inputs are wrapped in styled divs for consistent layout.
 
-Project File Structure Overview
+---
 
-This project is organized into a modular folder structure designed for clarity and maintainability. Below is an overview of the main directories and files that make up the website:
+## Tips.php Code Explanation
 
-css/: Contains all styling files, including the main stylesheet style.css.
+The `tips.php` page shares daily health and wellness tips to encourage healthy habits.
 
-data/: Stores persistent data files like contact_submissions.txt.
+- Wrapped with modular header and footer includes.
+- Main content is in a `<section>` with a descriptive heading and introductory paragraph.
+- Displays a list of wellness tips as an unordered list with emojis enhancing readability.
+- CSS classes enable targeted styling for spacing, font size, and layout.
+- Designed for clarity and motivation to adopt positive lifestyle changes.
 
-includes/: Contains reusable components such as header.php and footer.php.
+---
 
-Root PHP Files: Core pages of the site, including:
+## Resources.php Code Explanation
 
-index.php — Homepage
+The `resources.php` page organizes external links to trusted health organizations and informational sites.
 
-about.php — About page
+- Includes common header and footer PHP includes.
+- Content divided into three sections: General Health, Mental Health, and Nutrition & Wellness.
+- Each section contains a heading and a list of external links opening in new tabs.
+- Uses semantic HTML for accessibility and ease of navigation.
+- Provides users quick access to reliable information for health education and decision-making.
 
-contact.php — Contact form page
+---
 
-resources.php — Health resources page
+## Save_contact.php Code Explanation
 
-tips.php — Daily health tips page
+This `save_contact.php` script processes contact form submissions.
 
-notice.html — Informational banner included on pages
+- Checks if the form was submitted via the POST method.
+- Retrieves and sanitizes user inputs (name, email, message) using `htmlspecialchars()` and `trim()`.
+- Formats the data into a plain-text entry.
+- Appends the entry to a text file (`data/contact_submissions.txt`) for storage.
+- Includes standard header and footer PHP includes for consistent layout.
+- Displays a personalized thank-you message confirming submission.
+- Provides a link for users to return to the homepage.
+- Suitable for simple backend data collection without a database.
 
-save_contact.php — Server-side script to process contact form submissions
+---
 
-Below you will find the complete code for each page, alongside a detailed description of its purpose and functionality.
+## Style.css Code Explanation
 
-1. header.php
-This header.php file defines the consistent header section displayed at the top of every page on the Healthcare Info website.
+This stylesheet defines the visual appearance and layout of the Healthcare Info website.
 
-It starts with the HTML5 doctype and sets the language attribute to English for accessibility and SEO.
+- Sets global font, margin, padding, line-height, and background color for clean readability.
+- Styles the header and footer with dark backgrounds, centered white text, and consistent padding.
+- Uses flexbox for a horizontal, centered navigation menu with spacing and hover effects.
+- Defines main content area with maximum width, padding, and white background.
+- Styles forms with light backgrounds, borders, rounded corners, full-width inputs, and styled submit buttons.
+- Adds a notice box with yellow background and border to highlight important messages.
+- Styles sections like `.about-section` and `.tips-section` with background, padding, border-radius, and subtle shadows for card-like appearance.
+- Enhances list readability with spacing and font size adjustments.
+- Designed for simplicity, clarity, and accessibility across devices.
 
-The <head> section includes metadata and links the external CSS stylesheet (css/style.css) for styling across the site.
+---
 
-Inside the <body>, the header contains the site title wrapped in an <h1> tag for clear branding and SEO benefits.
+## How to Use This Repository
 
-A navigation bar (<nav>) follows, containing an unordered list (<ul>) of links (<a>) to the main website pages: Home, About, Contact, Health Tips, and Resources.
+1. Clone or download this repository to your local PHP-enabled server environment.
+2. Ensure the `data` directory is writable for storing contact form submissions.
+3. Place the project files in your web server's root or a subdirectory.
+4. Access the site via `index.php` in your browser to view the homepage.
+5. Navigate to other pages via the header menu links.
+6. Use the contact form to submit messages; submissions are saved locally in a text file.
+7. Modify `css/style.css` for custom styling adjustments.
 
-This modular header can be included in all pages via PHP includes to maintain consistency and simplify updates.
+---
 
-2. footer.php
-This footer.php file defines the consistent footer section displayed at the bottom of every page on the Healthcare Info website.
+Thank you for exploring the Healthcare Info project!  
+Designed and developed by **Nithin Merugu**.
 
-The <footer> element contains a paragraph that dynamically displays the current year using PHP’s date("Y") function, ensuring the copyright year is always current.
+---
 
-It includes a simple copyright notice with the site name, reinforcing ownership and professionalism.
-
-The footer closes the <body> and <html> tags, properly ending the HTML document structure.
-
-Like the header, this modular footer is reusable across pages via PHP includes, promoting code reuse and easy maintenance.
-
-3. index.php (Home Page)
-This index.php file serves as the homepage and landing page of the Healthcare Info website.
-
-Starts by including common header.php and notice.html for consistent site-wide header and announcements.
-
-The Hero Section welcomes visitors and describes the site’s purpose: sharing practical health tips, wellness insights, and trusted resources.
-
-A Dynamic Daily Health Tip uses JavaScript to cycle through health tips every 4 seconds, engaging users with fresh content.
-
-The Top 5 Daily Health Tips section lists simple, effective habits with emojis for friendly visual appeal.
-
-Healthy Living Benefits highlights why maintaining health is important for long-term wellness and mood.
-
-The Call to Action encourages users to contact for personalized wellness advice, using a styled button.
-
-Finally, includes footer.php for consistent footer content.
-
-This page balances static information with interactive elements to invite users to return regularly and explore the site.
-
-4. about.php
-The about.php page introduces the Healthcare Info project.
-
-Explains that Healthcare Info is an educational platform focused on clear, practical health awareness and wellness tips.
-
-Outlines the project’s purpose as a hands-on learning experience using HTML, CSS, and PHP.
-
-Highlights design features like responsive layout, minimalist UI, easy navigation, and modular PHP components.
-
-Lists skills demonstrated: semantic HTML, CSS responsiveness, modular code structure, and user-focused content.
-
-Credits the developer, showcasing professional ownership.
-
-Includes header and footer via PHP includes to keep consistent site structure.
-
-5. contact.php
-The contact.php page provides a user-friendly contact form.
-
-Contains a heading and intro paragraph inviting users to send questions or feedback.
-
-A form with labeled inputs for Name, Email, and a Message textarea.
-
-Uses POST method to submit data to save_contact.php.
-
-Inputs are required with placeholders for guidance.
-
-The submit button uses consistent styling and emoji for visual cues.
-
-Wrapped with modular header and footer includes.
-
-Designed for accessibility and usability.
-
-6. tips.php
-The tips.php page lists daily health and wellness tips.
-
-Wrapped by reusable header and footer includes.
-
-Introduces wellness tips with an emoji-enhanced heading.
-
-Describes purpose briefly in a paragraph.
-
-Lists actionable daily tips using emojis for easy recognition.
-
-Layout uses semantic HTML and CSS classes for styling.
-
-Simple, clear, and encouraging to motivate healthy habits.
-
-7. resources.php
-The resources.php page offers categorized external health links.
-
-Organized into General Health, Mental Health, and Nutrition & Wellness sections.
-
-Each section has heading and unordered lists linking to authoritative sites.
-
-Links open in new tabs for convenience.
-
-Wrapped by modular header and footer for consistent structure.
-
-Enhances trust and usability by connecting users to reputable sources.
-
-8. save_contact.php
-The save_contact.php script handles contact form submissions.
-
-Processes form data submitted via POST.
-
-Sanitizes input fields (name, email, message) with htmlspecialchars() and trim() for security.
-
-Appends the sanitized data into a text file data/contact_submissions.txt.
-
-After saving data, displays a thank you message personalized with the user's name.
-
-Includes header and footer for consistent site look.
-
-Enables simple backend data storage without a database.
-
-Provides immediate feedback to users upon submission.
-
-9. style.css
-The style.css file defines the visual styling for the entire site.
-
-Sets a clean, readable font (Arial) with consistent spacing and light background.
-
-Styles header and footer with dark background and white text for strong framing.
-
-Uses flexbox for horizontal, centered navigation menus with hover effects.
-
-Centers main content with max-width and padding on a white background.
-
-Styles forms with light backgrounds, borders, rounded corners, and clear input fields.
-
-Adds visual emphasis on notices, about sections, and wellness tips using backgrounds, padding, shadows, and larger fonts.
-
-Focuses on simplicity, clarity, and responsiveness for usability across devices.
-
-Thank you for reviewing my Healthcare Info project. This website demonstrates my ability to create clean, accessible, and responsive web applications using PHP, HTML, CSS, and JavaScript. Through this project, I focused on delivering practical health information with an intuitive user experience, combining modular code structure with dynamic interactive elements. It reflects my commitment to best practices in web development, usability, and content clarity. I am excited to build on these skills and contribute to impactful digital solutions in future professional roles.
+*Feel free to customize this README or let me know if you want me to generate a README file you can upload directly!*
