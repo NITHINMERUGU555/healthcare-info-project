@@ -107,8 +107,6 @@ The footer closes the <body> and <html> tags, properly ending the HTML document 
 Like the header, this modular footer can be included across all pages with PHP includes, promoting code reuse and easy maintenance.
 
 3.Index.php
-Detailed Explanation for index.php (Home Page)
-
 This index.php file serves as the homepage of the Healthcare Info website. It acts as the central landing page designed to welcome users and provide an overview of the site's key offerings related to health and wellness.
 
 Key Components:
@@ -162,7 +160,6 @@ Finally, the page includes a common footer.php to provide consistent footer cont
 Overall Purpose and User Experience:
 
 The index.php page is designed to be clean, accessible, and engaging. It provides useful health information in an easy-to-digest format with visual icons and interactive elements. By balancing static content with dynamic tips, it invites users to return regularly for updated wellness advice. The clear navigation, welcoming hero section, and prominent call to action collectively guide users smoothly through the site’s offerings.
-
 4. About.php
 About Page Code Explanation
 
