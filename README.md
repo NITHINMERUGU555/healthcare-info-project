@@ -37,19 +37,6 @@ This project demonstrates my commitment to thoughtful web design that balances a
 
 The project is built with modular PHP includes for header and footer, semantic HTML, CSS styling, and basic JavaScript for dynamic content. The backend stores contact form submissions in a text file without a database, ideal for simple hosting.
 
-/css/style.css          - Stylesheet for layout and design
-/includes/header.php    - Modular header included on all pages
-/includes/footer.php    - Modular footer included on all pages
-/index.php             - Homepage with dynamic health tips
-/about.php             - About page with project overview
-/contact.php           - Contact form page
-/save_contact.php      - Script to save contact submissions
-/tips.php              - Daily wellness tips page
-/resources.php         - External health resources page
-/notice.html           - Site-wide notice banner
-/data/contact_submissions.txt - Stored contact form entries
-
-
 ---
 
 ## Header.php Code Explanation
